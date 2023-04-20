@@ -1,0 +1,41 @@
+{% block pagetitle %}
+{% endblock pagetitle %}
+{% block body %}
+<html>
+<head>
+    <title></title>
+    <style>
+        body {
+          margin:0;
+          padding:0;
+          font-family: sans-serif;
+          background: linear-gradient(#141e30, #243b55);
+        }
+        .prompt {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 400px;
+          padding: 40px;
+          transform: translate(-50%, -50%);
+          background: rgba(0,0,0,.5);
+          box-sizing: border-box;
+          box-shadow: 0 15px 25px rgba(0,0,0,.6);
+          border-radius: 10px;
+
+          margin: 0 0 30px;
+          padding: 0;
+          color: #fff;
+          text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color:powderblue;">
+    <div class = "prompt">
+        <h1 align="center">You will be notified in a minute</h1>
+    </div>
+
+</body>
+</html>
+
+{% endblock body %}
