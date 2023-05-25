@@ -43,10 +43,10 @@ def submit_form():
         smtp_server = "smtp.gmail.com"
         # PORT = 587
         port = 587
-        # EMAIL_ID = "codebytanay@gmail.com"  # This is the Sender's Email_ID
-        email_id = "codebytanay@gmail.com"
-        # PASSWORD = "daixcczrbkjhdkqo"  # This is the app generated password
-        password = "daixcczrbkjhdkqo"
+        # EMAIL_ID = "sendersemail@gmail.com"  # This is the Sender's Email_ID
+        email_id = sendersemail@gmail.com"
+        # PASSWORD = "xxxxxxxxxxxxxxx"  # This is the app generated password
+        password = "xxxxxxxxxxxxxx"
 
         # Function to send email notification
         def notify():
