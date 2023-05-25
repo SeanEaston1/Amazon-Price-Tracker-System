@@ -38,14 +38,17 @@ def submit_form():
 
             price = int(float(price))  # Convert the price to an integer
             return price
-
-        # SMTP_SERVER = "smtp.gmail.com"
+        
+        # Which email server you want to use gmail, yahoo, hotmail, etc
         smtp_server = "smtp.gmail.com"
-        # PORT = 587
+        
+        # The port 587 is used for encrypted email transmissions using SMTP Secure (SMTPS).
         port = 587
-        # EMAIL_ID = "sendersemail@gmail.com"  # This is the Sender's Email_ID
-        email_id = sendersemail@gmail.com"
-        # PASSWORD = "xxxxxxxxxxxxxxx"  # This is the app generated password
+        
+        # This is the Sender's Email_ID
+        email_id = sendersemail@gmail.com"  
+        
+        # This is the app generated password
         password = "xxxxxxxxxxxxxx"
 
         # Function to send email notification
